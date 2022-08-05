@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DBcrud</string>
+    <string name="tidak_punya_akun">tidak punya akun ?</string>
+    <string name="submit">Submit</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="sudah_punya_akun">Sudah punya akun ?</string>
+    <string name="description">Description</string>
+    <string name="quantity">Quantity</string>
+</resources>

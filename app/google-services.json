@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "56352679016",
+    "firebase_url": "https://dbcrud-3be55-default-rtdb.firebaseio.com",
+    "project_id": "dbcrud-3be55",
+    "storage_bucket": "dbcrud-3be55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56352679016:android:4cf975cabf97bd788f87dd",
+        "android_client_info": {
+          "package_name": "com.example.dbcrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56352679016-nps97eh5mk7dqkg7et3p8eds80h0c1a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOq_wGq--FMoPPLIvT4UM5zl9PmHU3JBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56352679016-nps97eh5mk7dqkg7et3p8eds80h0c1a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

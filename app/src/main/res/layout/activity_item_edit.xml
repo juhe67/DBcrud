@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemEditActivity"
+    android:background="@drawable/bg3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:background="@android:drawable/screen_background_light_transparent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_name"
+            android:hint="@string/name"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            android:autofillHints=""
+            tools:ignore="TextFields" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/edit_desc"
+            android:layout_below="@+id/edit_name"
+            android:hint="@string/description"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            android:autofillHints=""
+            android:inputType="text" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_desc"
+            android:id="@+id/edit_qty"
+            android:hint="@string/quantity"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_qty"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/blue"
+            android:padding="17dp"
+            android:text="@string/submit" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

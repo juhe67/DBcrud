@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/card_item">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/img_item"
+                android:src="@drawable/icon"
+                android:layout_alignParentStart="true"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_name"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_toEndOf="@+id/img_item"
+                android:layout_toStartOf="@id/img_item_menu"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/txt_desc"
+                android:text="@string/description"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/img_item"
+                android:layout_toStartOf="@id/img_item_menu"
+                android:layout_below="@id/txt_name"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_qty"
+                android:text="@string/quantity"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/img_item"
+                android:layout_toStartOf="@id/img_item_menu"
+                android:layout_below="@id/txt_desc"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/img_item_menu"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+           </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+</LinearLayout>

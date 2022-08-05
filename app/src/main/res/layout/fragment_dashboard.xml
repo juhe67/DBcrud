@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_name"
+            android:hint="@string/name"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            android:autofillHints=""
+            android:inputType="text" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_name"
+            android:id="@+id/btn_submit"
+            android:text="@string/submit"
+            android:padding="17dp"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/btn_submit"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:id="@+id/txt_name"
+            />
+
+        <ImageView
+            android:id="@+id/img_dashboard"
+            android:layout_below="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contrac"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

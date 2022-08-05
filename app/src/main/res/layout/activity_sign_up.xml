@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:gravity="center">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_username"
+            android:hint="@string/username"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:autofillHints=""
+            android:inputType="text" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_password"
+            android:layout_below="@+id/edit_username"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_password"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/blue"
+            android:padding="17dp"
+            android:text="@string/submit" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_signup"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/sudah_punya_akun"
+            android:textAlignment="center"
+            android:id="@+id/txt_signin"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
